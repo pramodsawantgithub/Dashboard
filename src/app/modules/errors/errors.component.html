@@ -1,0 +1,35 @@
+<p>errors works!</p>
+
+
+
+<div>
+  <table>
+    <tr>
+      <th>id</th>
+      <th>created_at</th>
+      <th>ident / Action</th>
+      <th>workflow</th>
+      <th>action / Action</th>
+      <th>state</th>
+      <th>result / Action</th>
+      <th>author</th>
+
+
+    </tr>
+    <tr *ngFor="let item of dataSource">
+      <td> {{item.id}}</td>
+
+      <td>{{item.created_at}}</td>
+      <td> {{item.ident}}</td>
+
+      <td>{{item.workflow}}</td>
+      <td>{{item.action}}</td>
+      <td>{{item.state}}</td>
+      <td>{{item.result}}</td>
+      <td>{{item.author}}</td>
+
+
+    </tr>
+
+  </table>
+</div>

@@ -1,0 +1,21 @@
+<p>monthly works!</p>
+<h1>Static Table</h1>
+<div>
+  <table border="1">
+    <tr>
+      <th>Workflow / Action</th>
+      <th>Count</th>
+
+
+    </tr>
+    <tr *ngFor="let item of data">
+      <td > {{item.workflow}}</td>
+
+      <td>{{item.data}}</td>
+
+
+
+    </tr>
+
+  </table>
+</div>
